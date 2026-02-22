@@ -6,7 +6,7 @@ public class PipeSpawner : MonoBehaviour
     public float SpawnRateSec = 2f;
     public float RandomYMaxOffset = 10f;
     public float RandomYMinOffset = 0f;
-    private float _timer = 0f;
+    private float _timer = int.MaxValue;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
